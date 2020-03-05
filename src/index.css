@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ingredient {
+  width: 85%;
+  min-width: 100px;
+  height: 50px;
+  border-radius: 25%;
+  margin: 0 auto;
+}
+
+.kaiser-bun {
+  background-color: saddlebrown;
+}
+
+.sesame-bun {
+  background-color: sandybrown;
+}
+
+.gluten-free-bun {
+  background-color: peru;
+}
+
+.lettuce-wrap {
+  background-color: olivedrab;
+}
+
+.beef-patty, .soy-patty, .black-bean-patty {
+  background-color: #3F250B;
+}
+
+.chicken-patty {
+  background-color: burlywood;
+}
+
+.lettuce {
+  background-color: lawngreen;
+}
+
+.tomato {
+  background-color: tomato;
+}
+
+.bacon {
+  background-color: maroon;
+}
+
+.onion {
+  background-color: lightyellow;
+}
+
+.burger-maker {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.burger-maker ul {
+  list-style-type: none;
+  text-align: left;
+  display: flex;
+  flex-flow: column wrap;
+  width: 30%;
+}
+
+.burger-stack {
+  width: 40%;
+}
+
+.ingredient-name {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clear-btn {
+  margin-top: 10px;
+}
+
+.add-btn, .clear-btn {
+  border: 5px solid rebeccapurple;
+  background: none;
+  border-radius: 15%;
+  padding: 5px;
+  font-size: 24px;
+}
+
+.add-btn:hover, .clear-btn:hover {
+  background-color: palevioletred;
+  color: white;
+}
